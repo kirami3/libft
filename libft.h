@@ -6,7 +6,7 @@
 /*   By: harsenal <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/06 13:43:23 by harsenal          #+#    #+#             */
-/*   Updated: 2021/10/06 15:37:51 by harsenal         ###   ########.fr       */
+/*   Updated: 2021/10/10 16:09:06 by harsenal         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -111,5 +111,7 @@ void				ft_lstiter(t_list *lst, void (*f)(void *));
 
 t_list				*ft_lstmap(t_list *lst, void *(*f)(void *), \
 	   				void (*del)(void *));
+
+void				ft_striteri(char *s, void (*f)(unsigned int, char *));
 
 #endif
